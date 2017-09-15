@@ -3,19 +3,53 @@
 @section('content')
 <div class="main-container">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-12">
             <div class="panel panel-default">
-                <ul class="notifications">
+                <ul class="workers">
                 	<li>
                         <a href="#">
-                            <img src="" alt="user-image"> Clyde Joshua Delgado 
+                            <img src="{{asset('uploads/selfie.png')}}" alt="user-image"> 
+                            <span class="name">Clyde Joshua Delgado</span>
                             <span class="address">San Pedro, San Jose, Antique</span>
                             <span class="contact-no">09177027628</span>
                             <ul class="spec">
-                                <li class="glyphicon glyphicon-wrench"></li>
+                                <li><span class="glyphicon glyphicon-wrench"></span></li>
                             </ul>
                         </a>
                 	</li>
+                    <li>
+                        <a href="#">
+                            <img src="{{asset('uploads/selfie.png')}}" alt="user-image"> 
+                            <span class="name">Clyde Joshua Delgado</span>
+                            <span class="address">San Pedro, San Jose, Antique</span>
+                            <span class="contact-no">09177027628</span>
+                            <ul class="spec">
+                                <li><span class="glyphicon glyphicon-wrench"></span></li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="{{asset('uploads/selfie.png')}}" alt="user-image"> 
+                            <span class="name">Clyde Joshua Delgado</span>
+                            <span class="address">San Pedro, San Jose, Antique</span>
+                            <span class="contact-no">09177027628</span>
+                            <ul class="spec">
+                                <li><span class="glyphicon glyphicon-wrench"></span></li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="{{asset('uploads/selfie.png')}}" alt="user-image"> 
+                            <span class="name">Clyde Joshua Delgado</span>
+                            <span class="address">San Pedro, San Jose, Antique</span>
+                            <span class="contact-no">09177027628</span>
+                            <ul class="spec">
+                                <li><span class="glyphicon glyphicon-wrench"></span></li>
+                            </ul>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -38,5 +72,5 @@
 @endsection
 
 @push('styles')
-	<link rel="stylesheet" type="text/css" href="{{ asset('css/notifications.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('css/workers.css') }}">
 @endpush

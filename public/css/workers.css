@@ -1,0 +1,45 @@
+.workers{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.workers > li img{
+	height: 2.5em;
+	width: 2.5em;
+	object-position: center;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.workers > li{
+	border-bottom: 1px solid #EEE;
+}
+
+.workers > li a{
+	display: block;
+	padding: 1em;
+}
+
+.workers .name{
+	font-weight: bold;
+}
+
+.workers .address{
+	display: none;
+}
+
+.workers .contact-no{
+	display: none;
+}
+
+.workers .spec{
+	/* display: none; */
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.workers .spec li > *{
+
+}

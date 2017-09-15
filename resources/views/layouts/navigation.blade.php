@@ -41,6 +41,7 @@
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
                         <li><a href="#"><span class="glyphicon glyphicon-bell"></span> Notifications</a></li>
                         <li><a href="#"><span class="glyphicon glyphicon-off"></span> Logout</a></li>
                     </ul>
