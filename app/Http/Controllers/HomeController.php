@@ -25,4 +25,11 @@ class HomeController extends Controller
     {
         return view('home');
     }
+    public function testApi(){
+      return view('apitesting');
+    }
+
+    public function viewAccount(){
+      return view('viewaccount');
+    }
 }
