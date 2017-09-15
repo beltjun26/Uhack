@@ -3,34 +3,46 @@
 @section('content')
 <div class="main-container">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-12 no-padding">
             <div class="panel panel-default">
                 <input type="text" id="category-filter" name="category-filter" placeholder="Search employee type">
 
                 <ul class="categories">
                 	<li>
-                		<span class="glyphicon glyphicon-home"></span>
-                		<span class="name">Category 1</span>
+                		<a href="#">
+	                		<span class="glyphicon glyphicon-home"></span>
+	                		<span class="name">Category 1</span>
+                		</a>
                 	</li>
                 	<li>
-                		<span class="glyphicon glyphicon-home"></span>
-                		<span class="name">Category 2</span>
+                		<a href="#">
+	                		<span class="glyphicon glyphicon-home"></span>
+	                		<span class="name">Category 2</span>
+                		</a>
                 	</li>
                 	<li>
-                		<span class="glyphicon glyphicon-home"></span>
-                		<span class="name">Category 3</span>
+                		<a href="#">
+	                		<span class="glyphicon glyphicon-home"></span>
+	                		<span class="name">Category 3</span>
+                		</a>
                 	</li>
                 	<li>
-                		<span class="glyphicon glyphicon-home"></span>
-                		<span class="name">Category 4</span>
+                		<a href="#">
+	                		<span class="glyphicon glyphicon-home"></span>
+	                		<span class="name">Category 4</span>
+                		</a>
                 	</li>
                 	<li>
-                		<span class="glyphicon glyphicon-home"></span>
-                		<span class="name">Category 5</span>
+                		<a href="#">
+	                		<span class="glyphicon glyphicon-home"></span>
+	                		<span class="name">Category 5</span>
+                		</a>
                 	</li>
                 	<li>
-                		<span class="glyphicon glyphicon-home"></span>
-                		<span class="name">Category 6</span>
+                		<a href="#">
+	                		<span class="glyphicon glyphicon-home"></span>
+	                		<span class="name">Category 6</span>
+                		</a>
                 	</li>
                 </ul>
 

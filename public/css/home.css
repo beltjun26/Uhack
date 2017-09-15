@@ -5,6 +5,26 @@
 }
 
 .categories > li{
-	
+	border-top: 1px solid #EEE;
 }
 
+.categories > li > a{
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.categories .name{
+	margin-top: 0.25em;
+}
+
+#category-filter{
+	margin: 1em auto 1em auto;
+	border-radius: 3px;
+	border: 1px solid #EEE;
+	padding: 1em;
+	width: 85%;
+	display: block;
+}

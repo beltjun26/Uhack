@@ -9,47 +9,17 @@
                 	<li>
                         <a href="#">
                             <img src="{{asset('uploads/selfie.png')}}" alt="user-image"> 
-                            <span class="name">Clyde Joshua Delgado</span>
-                            <span class="address">San Pedro, San Jose, Antique</span>
-                            <span class="contact-no">09177027628</span>
-                            <ul class="spec">
-                                <li><span class="glyphicon glyphicon-wrench"></span></li>
-                            </ul>
+                            <div class="desc">
+                                <span class="name">Clyde Joshua Delgado</span>
+                                <ul class="spec">
+                                    <li><span class="glyphicon glyphicon-star"></span> 0</li>
+                                    <li><span class="glyphicon glyphicon-wrench"></span> 0</li>
+                                </ul>
+                                <span class="address">San Pedro, San Jose, Antique</span>
+                                <span class="contact-no">09177027628</span>
+                            </div>
                         </a>
                 	</li>
-                    <li>
-                        <a href="#">
-                            <img src="{{asset('uploads/selfie.png')}}" alt="user-image"> 
-                            <span class="name">Clyde Joshua Delgado</span>
-                            <span class="address">San Pedro, San Jose, Antique</span>
-                            <span class="contact-no">09177027628</span>
-                            <ul class="spec">
-                                <li><span class="glyphicon glyphicon-wrench"></span></li>
-                            </ul>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{asset('uploads/selfie.png')}}" alt="user-image"> 
-                            <span class="name">Clyde Joshua Delgado</span>
-                            <span class="address">San Pedro, San Jose, Antique</span>
-                            <span class="contact-no">09177027628</span>
-                            <ul class="spec">
-                                <li><span class="glyphicon glyphicon-wrench"></span></li>
-                            </ul>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{asset('uploads/selfie.png')}}" alt="user-image"> 
-                            <span class="name">Clyde Joshua Delgado</span>
-                            <span class="address">San Pedro, San Jose, Antique</span>
-                            <span class="contact-no">09177027628</span>
-                            <ul class="spec">
-                                <li><span class="glyphicon glyphicon-wrench"></span></li>
-                            </ul>
-                        </a>
-                    </li>
                 </ul>
             </div>
         </div>

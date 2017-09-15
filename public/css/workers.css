@@ -17,8 +17,13 @@
 }
 
 .workers > li a{
-	display: block;
+	display: flex;
+	align-items: center;
 	padding: 1em;
+}
+
+.workers .desc{
+	margin-left: 1em;
 }
 
 .workers .name{
@@ -34,10 +39,14 @@
 }
 
 .workers .spec{
-	/* display: none; */
+	display: flex;
 	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+
+.workers .spec > :first-child{
+	margin-right: 1em;
 }
 
 .workers .spec li > *{
