@@ -11,10 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', function () { return view('welcome'); });
+Route::get('/notifications', function () { return view('notifications'); });
+Route::get('/workers', function () { return view('workers'); });
+Route::get('/profile/worker', function () { return view('profile/worker'); });
+Route::get('/profile/employer', function () { return view('profile/employer'); });
+Route::get('/hire', function () { return view('hire'); });
+Route::get('/search', function () { return view('search'); });
+Route::get('/send', function () { return view('send'); });
+Route::get('/notifications', function () { return view('notifications'); });
+Route::get('/home', function () { return view('home'); });
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
