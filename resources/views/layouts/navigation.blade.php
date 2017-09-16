@@ -38,9 +38,10 @@
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;Profile</a></li>
-                        <li><a href="#"><span class="glyphicon glyphicon-bell"></span>&nbsp;&nbsp;Notifications</a></li>
-                        <li><a href="#"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;Logout</a></li>
+                        <li><a href="{{url('/profile/employer')}}"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;Profile</a></li>
+                        <!-- <li><a href="{{url('/profile/worker')}}"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;Profile</a></li> -->
+                        <li><a href="{{url('/notifications')}}"><span class="glyphicon glyphicon-bell"></span>&nbsp;&nbsp;Notifications</a></li>
+                        <li><a href="{{url('/')}}"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;Logout</a></li>
                     </ul>
 
                 </div>
