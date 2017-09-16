@@ -13,13 +13,16 @@
             <div class="panel panel-default">
               <h4>Masonry</h4>
               <p>I know i shouldn't do this but im lazy tempor incididunt ut labore et dolore. </p>
-              <span><strong>Rate:</strong>250 per day</span> 
+              <span><strong>Rate:</strong>250 per day</span>
             </div>
             <div class="panel panel-default">
               <h4>Carpentry</h4>
               <p>Furnishing experience. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod I know i shouldn't do this but im lazy tempor incididunt ut labore et dolore. </p>
               <span><strong>Rate:</strong>250 per day</span>
             </div>
+        </div>
+        <div class="row">
+          <a class="btn btn-primary" href="{{ url('sendsms') }}">Hire</a>
         </div>
     </div>
 </div>
