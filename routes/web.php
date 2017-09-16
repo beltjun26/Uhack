@@ -14,6 +14,7 @@
 Route::get('/', function () { return view('welcome'); });
 Route::get('/notifications', function () { return view('notifications'); });
 Route::get('/workers', function () { return view('workers'); });
+Route::get('/addworker', function () { return view('add_worker'); });
 Route::get('/profile/worker', function () { return view('profile/worker'); });
 Route::get('/profile/employer', function () { return view('profile/employer'); });
 Route::get('/hire', function () { return view('hire'); });
