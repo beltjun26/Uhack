@@ -1,0 +1,28 @@
+/* #navigation > .navbar-fixed-top{
+	width: 100vw;
+	overflow-x: hidden;
+} */
+
+.navbar-default{
+	background-color: #e5b024;
+}
+
+.navbar-brand{
+	color: white!important;
+}
+
+.navbar-toggle .icon-bar{
+	background-color: white!important;
+}
+
+.navbar-toggle{
+	transform: scale(0.8, 1) translate(0, 0);	
+}
+
+#app-navbar-collapse a{
+	color: white;
+}
+
+.row{
+	margin: 0;
+}

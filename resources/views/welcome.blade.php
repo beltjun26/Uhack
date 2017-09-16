@@ -78,6 +78,13 @@
                 margin-bottom: 30px;
             }
 
+            .logo{
+                width: 10em;
+                height: 10em;
+                object-position: center;
+                object-fit: cover;
+            }
+
             .login-form{
                 /* margin: auto; */
             }
@@ -157,6 +164,7 @@
             <div class="content">
                 <!-- <div class="logo"></div> -->
                 <!-- <img src=""> -->
+                <img class="logo" src="{{asset('uploads/logo.png')}}">
                 <div class="title m-b-md">Pa'ubra</div>
                 <form class="login-form" action="{{url('/home')}}">
                     <input type="text" name="username" placeholder="Username">
