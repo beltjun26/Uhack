@@ -5,12 +5,15 @@
     <div class="row">
         <div class="col-md-12">
             <div class="panel panel-default">
-                <h2 class="headline"><span class="glyphicon glyphicon-bell"></span> Notifications</h2>
+                <h2 class="headline"><span class="glyphicon glyphicon-bell"></span> Workers</h2>
+                <div class="row text-center">
+                  <a class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span>Add</a>
+                </div>
                 <ul class="notifications">
-                    <li><p><img class="source" src="{{asset('uploads/selfie.png')}}" alt="user-image"> <a class="text-bold" href="#">Clyde Joshua</a> has asked Juan Dela Cruz to work with him.</p></li>
-                    <li><p><img class="source" src="{{asset('uploads/selfie.png')}}" alt="user-image"> <a class="text-bold" href="#">Clyde Joshua</a> has asked Ruben Nacio to work with him.</p></li>
-                    <li><p><img class="source" src="{{asset('uploads/selfie.png')}}" alt="user-image"> <a class="text-bold" href="#">Clyde Joshua</a> has asked Mako Nim to work with him.</p></li>
-                  <li><p><img class="source" src="{{asset('uploads/selfie.png')}}" alt="user-image"> <a class="text-bold" href="#">Clyde Joshua</a> has asked Jenjen Santos to work with him.</p></li>
+                    <li><p><img class="source" src="{{asset('uploads/selfie.png')}}" alt="user-image"> <a class="text-bold" href="#">Clyde Joshua</a></p></li>
+                    <li><p><img class="source" src="{{asset('uploads/selfie.png')}}" alt="user-image"> <a class="text-bold" href="#">Clyde Joshua</a></p></li>
+                    <li><p><img class="source" src="{{asset('uploads/selfie.png')}}" alt="user-image"> <a class="text-bold" href="#">Clyde Joshua</a> </p></li>
+                  <li><p><img class="source" src="{{asset('uploads/selfie.png')}}" alt="user-image"> <a class="text-bold" href="#">Clyde Joshua</a> </p></li>
                 </ul>
             </div>
         </div>

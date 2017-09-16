@@ -40,7 +40,7 @@
           </div>
         </div>
         <div class="row">
-          <a class="btn btn-primary" href="{{ url('sendsms') }}">Hire</a>
+          <a class="btn btn-primary" href="{{ }}">Add</a>
         </div>
     </div>
 </div>
