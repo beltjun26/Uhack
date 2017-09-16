@@ -33,7 +33,12 @@
             <div class="panel panel-default">
               <div class="panel-body">
                 <h4 class="headline">Carpentry</h4>
-                <span class="skill-rating"></span>
+                <span class="skill-rating">
+                  <span class="glyphicon glyphicon-star"></span>
+                  <span class="glyphicon glyphicon-star"></span>
+                  <span class="glyphicon glyphicon-star"></span>
+                  <span class="glyphicon glyphicon-star"></span>
+                </span>
                 <p class="roboto">Furnishing experience is quite exceptional. Does jobs very quickly.</p>
                 <span class="rate"><strong>Rate: </strong><span class="consolas">250 per day</span></span>
               </div>
@@ -56,6 +61,9 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="row">
+          <a class="btn btn-primary" href="{{ url('sendsms') }}">Hire</a>
         </div>
     </div>
 </div>

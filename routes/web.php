@@ -21,6 +21,11 @@ Route::get('/search', function () { return view('search'); });
 Route::get('/send', function () { return view('send'); });
 Route::get('/notifications', function () { return view('notifications'); });
 Route::get('/home', function () { return view('home'); });
- 
+
+Route::get('/sendsms', 'ChikkaController@sendSMS');
+Route::get('/transferFund', 'UBankController@TransferTest');
+Route::get('/UBankAccount', 'UBankController@checkAccount');
+
+Auth::routes();
 
 // Route::get('/home', 'HomeController@index')->name('home');
