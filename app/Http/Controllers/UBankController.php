@@ -16,7 +16,7 @@ class UBankController extends Controller
         CURLOPT_TIMEOUT => 30,
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => "POST",
-        CURLOPT_POSTFIELDS => "{\"channel_id\":\"Paubra\",\"transaction_id\":\"001\",\"source_account\":\"".$SourceAccount."\",\"source_currency\":\"PHP\",\"target_account\":\"".$TargetAccount."\",\"target_currency\":\"PHP\",\"amount\":".$ammount."}",
+        CURLOPT_POSTFIELDS => "{\"channel_id\":\"Paubra2\",\"transaction_id\":\"999\",\"source_account\":\"".$SourceAccount."\",\"source_currency\":\"PHP\",\"target_account\":\"".$TargetAccount."\",\"target_currency\":\"PHP\",\"amount\":".$ammount."}",
         CURLOPT_HTTPHEADER => array(
           "accept: application/json",
           "content-type: application/json",
@@ -93,13 +93,13 @@ class UBankController extends Controller
       }
     }
 
-    public function TransferTest(){
-      echo $this->transferFund(100637829389, 100089389084, 1000);
+    public function TransferPay(){
+      echo $this->transferFund(100637829389, 100089389084, 1000); //For mock accound
 
     }
 
     public function checkAccount(){
-      echo $this->accountInfo(100637829389);
+      echo $this->accountInfo(100637829389); //For mock accound
 
     }
 }

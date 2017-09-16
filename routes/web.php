@@ -24,7 +24,7 @@ Route::get('/home', function () { return view('home'); });
 Route::get('/payment', function () { return view('payment'); });
 
 Route::get('/sendsms', 'ChikkaController@sendSMS');
-Route::get('/transferFund', 'UBankController@TransferTest');
+Route::get('/transferFund', 'UBankController@TransferPay');
 Route::get('/UBankAccount', 'UBankController@checkAccount');
 
 Auth::routes();
