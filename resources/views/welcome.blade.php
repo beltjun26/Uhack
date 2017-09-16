@@ -164,6 +164,7 @@
             <div class="content">
                 <!-- <div class="logo"></div> -->
                 <!-- <img src=""> -->
+                <img class="logo" src="{{asset('uploads/logo.png')}}">
                 <div class="title m-b-md">Pa'ubra</div>
                 <form class="login-form" action="{{url('/home')}}">
                     <input type="text" name="username" placeholder="Username">
