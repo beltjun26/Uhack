@@ -10,8 +10,8 @@
                 <div style="text-align: right; margin-right: 0.5em; margin-top: -3em; margin-bottom: 2em;"><span class="roboto">Rating</span> <span class="caret"></span></div>
                 <ul class="workers">
                     <li>
-                        <a href="#">
-                            <img src="{{asset('uploads/selfie.png')}}" alt="user-image"> 
+                        <a href="{{ url('profile/worker') }}">
+                            <img src="{{asset('uploads/selfie.png')}}" alt="user-image">
                             <div class="desc">
                                 <span class="name">Clyde Joshua Delgado</span>
                                 <ul class="spec">
@@ -26,7 +26,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img src="{{asset('uploads/selfie.png')}}" alt="user-image"> 
+                            <img src="{{asset('uploads/selfie.png')}}" alt="user-image">
                             <div class="desc">
                                 <span class="name">Ronan Johna Raquirezs</span>
                                 <ul class="spec">
@@ -41,7 +41,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img src="{{asset('uploads/selfie.png')}}" alt="user-image"> 
+                            <img src="{{asset('uploads/selfie.png')}}" alt="user-image">
                             <div class="desc">
                                 <span class="name">Teron Rum Chada</span>
                                 <ul class="spec">
@@ -56,7 +56,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img src="{{asset('uploads/selfie.png')}}" alt="user-image"> 
+                            <img src="{{asset('uploads/selfie.png')}}" alt="user-image">
                             <div class="desc">
                                 <span class="name">Rammel Noquinta</span>
                                 <ul class="spec">
@@ -71,7 +71,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img src="{{asset('uploads/selfie.png')}}" alt="user-image"> 
+                            <img src="{{asset('uploads/selfie.png')}}" alt="user-image">
                             <div class="desc">
                                 <span class="name">Jose Jun Ramirez</span>
                                 <ul class="spec">
@@ -86,7 +86,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img src="{{asset('uploads/selfie.png')}}" alt="user-image"> 
+                            <img src="{{asset('uploads/selfie.png')}}" alt="user-image">
                             <div class="desc">
                                 <span class="name">Pedro Penduco</span>
                                 <ul class="spec">

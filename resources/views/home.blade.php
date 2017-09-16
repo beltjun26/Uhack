@@ -21,7 +21,7 @@
                 		</a>
                 	</li>
                 	<li>
-                		<a href="#">
+                		<a href="{{ url('/workers') }}">
 	                		<span class="glyphicon glyphicon-home"></span>
 	                		<span class="name">Carpenter</span>
                 		</a>
