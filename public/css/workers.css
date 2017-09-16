@@ -13,7 +13,7 @@
 }
 
 .workers > li{
-	border-bottom: 1px solid #EEE;
+	border-top: 1px solid #EEE;
 }
 
 .workers > li a{
@@ -47,6 +47,15 @@
 
 .workers .spec > :first-child{
 	margin-right: 1em;
+	color: #e5a11f;
+}
+
+.workers .spec > :nth-child(2){
+	margin-right: 1em;
+}
+
+.workers .spec > :last-child{
+	color: #cf1818;
 }
 
 .workers .spec li > *{

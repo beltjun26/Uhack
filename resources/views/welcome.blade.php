@@ -78,6 +78,13 @@
                 margin-bottom: 30px;
             }
 
+            .logo{
+                width: 10em;
+                height: 10em;
+                object-position: center;
+                object-fit: cover;
+            }
+
             .login-form{
                 /* margin: auto; */
             }

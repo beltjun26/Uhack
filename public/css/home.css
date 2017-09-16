@@ -2,18 +2,26 @@
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .categories > li{
 	border-top: 1px solid #EEE;
+	border-right: 1px solid #EEE;
+	/* background-color: #7e1e1e; */
+	width: 33.33%;
 }
 
 .categories > li > a{
-	padding: 1em;
+	padding: 1.5em 1em;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	color: #555;
+	font-size: 1.1em;
+	font-family: Roboto;
 }
 
 .categories .name{
@@ -21,10 +29,16 @@
 }
 
 #category-filter{
-	margin: 1em auto 1em auto;
+	margin: 0.75em auto 0.75em auto;
 	border-radius: 3px;
-	border: 1px solid #EEE;
+	border: 1px solid #e7aa17;
 	padding: 1em;
 	width: 85%;
 	display: block;
+	font-family: Roboto;
+	text-align: center;
+}
+
+#category-filter:focus{
+	text-align: left;
 }
